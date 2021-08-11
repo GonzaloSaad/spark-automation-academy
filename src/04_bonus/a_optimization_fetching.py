@@ -52,11 +52,6 @@ def search_books(params):
 def get_books(book_title):
     """
     Get a list of books based on the title
-    Args:
-        book_title:
-
-    Returns:
-
     """
     fields_to_fetch = "has_fulltext,key,author_name,title"
 
@@ -70,7 +65,7 @@ def get_books(book_title):
 
 def example():
     book_title = "Microservices"
-    name_to_find = "Sam Newman"
+    name_to_find = "Ethan Garofolo"
     for book in get_books(book_title):
         authors_name = book.get("author_name")
         if authors_name and name_to_find in authors_name:
