@@ -11,9 +11,9 @@ Docs:
 
 
 def example1():
-    i = [4, 5, 6, 7]
+    l = [4, 5, 6, 7]
     rslt = []
-    for n in i:
+    for n in l:
         if n % 2 == 0:
             rslt.append(n)
     print(rslt)

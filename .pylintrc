@@ -31,7 +31,7 @@ evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / stateme
 [BASIC]
 
 # Bad variable names which should always be refused, separated by a comma
-bad-names=o,i,func,foo
+bad-names=l,func,foo
 
 [ELIF]
 
