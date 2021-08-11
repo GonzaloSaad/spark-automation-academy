@@ -1,12 +1,9 @@
 """
-F1: Too Many Arguments
+Chapter 3 - Have No Side Effects
 
-Functions should have a small number of arguments. No argument is best, followed by one, two, and three.
+Side effects are lies.
 
-More than three is very questionable and should be avoided with prejudice.
-
-Docs:
-    https://moderatemisbehaviour.github.io/clean-code-smells-and-heuristics/functions/f1-too-many-arguments.html
+Your function promises to do one thing, but it also does other hidden things.
 """
 
 import requests
