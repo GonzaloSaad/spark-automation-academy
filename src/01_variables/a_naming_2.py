@@ -29,7 +29,7 @@ def example2():
     api_mock.get.assert_called_once()
 
     assert "https" in api_mock.get.call_args[0][0]
-    assert 10 == api_mock.get.call_args[0][1]
+    assert api_mock.get.call_args[0][1] == 10
     assert "params" in api_mock.get.call_args[1]
     print("====== TEST PASSED ======")
 

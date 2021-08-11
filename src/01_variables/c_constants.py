@@ -10,8 +10,6 @@ Docs:
 """
 from datetime import datetime, timedelta
 
-import seconds as seconds
-
 
 def example():
     # Let's convert to UTC-3 (Arg Time) like this was never written before
